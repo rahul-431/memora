@@ -8,7 +8,6 @@ import { HiBars3BottomRight } from "react-icons/hi2";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
@@ -53,7 +52,6 @@ const Heading = () => {
               <SheetHeader>
                 <SheetTitle className="text-lg text-left">Memora</SheetTitle>
               </SheetHeader>
-              {/* <hr className="border-[#F7AD3D]" /> */}
               <div className="flex flex-col gap-4 py-3 font-medium text-sm">
                 {NavItemList.map((item, index) => (
                   <Link
