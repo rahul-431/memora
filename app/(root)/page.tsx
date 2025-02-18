@@ -1,11 +1,12 @@
 import { HeroSection } from "@/components/ui/HeroSection";
+import { Suspense } from "react";
 
 export default function Home() {
   return (
-    // Hero section
-    <section>
-      <HeroSection />
-
-    </section>
+    <Suspense>
+      <section>
+        <HeroSection />
+      </section>
+    </Suspense>
   );
 }
