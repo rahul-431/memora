@@ -45,7 +45,7 @@ const Heading = () => {
         ))}
         <div className="md:hidden">
           <Sheet>
-            <SheetTrigger>
+            <SheetTrigger className="text-xl">
               <HiBars3BottomRight />
             </SheetTrigger>
             <SheetContent side="right" className="max-w-44 py-8">
