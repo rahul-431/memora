@@ -9,7 +9,7 @@ const IconLink = ({ icon, href, iconSize }: IconLinkType) => {
   return (
     <Link
       href={href}
-      className={`hover:text-[#BA933E] text-${iconSize ? iconSize : "xl"}`}
+      className={`hover:text-[#BA933E] text-${iconSize ? iconSize : "lg"}`}
     >
       {icon}
     </Link>
