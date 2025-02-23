@@ -4,6 +4,7 @@ import "./globals.css";
 import Topbar from "@/components/layout/Topbar";
 import Heading from "@/components/layout/Heading";
 import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 
 const poppin = Poppins({
   variable: "--font-poppins",
@@ -28,6 +29,11 @@ export default function RootLayout({
         <Heading />
         <Navbar />
         {children}
+        <Footer />
+        <Topbar
+          text="Hurry Up! Enjoy Up to 50% Off on Selected Apparel & Home Essentials | *T&C Apply"
+          top={true}
+        />
       </body>
     </html>
   );

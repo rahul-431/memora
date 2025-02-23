@@ -39,7 +39,7 @@ export function HeroSection() {
   return (
     <Carousel
       plugins={[plugin.current]}
-      className="w-full relative"
+      className="w-full relative mb-4 sm:mb-0"
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >
@@ -85,7 +85,7 @@ export function HeroSection() {
             },
           ]}
         />
-        <div className="flex flex-col sm:flex-row justify-between gap-2 sm:gap-4">
+        <div className="flex flex-col sm:flex-row justify-between gap-2 sm:gap-4 ">
           <div className="flex border-[2px] rounded sm:rounded-md border-[#F7AD3D] w-full sm:w-fit px-4 py-2 sm:py-3">
             <input
               type="text"
