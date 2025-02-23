@@ -1,7 +1,8 @@
 import Link from "next/link";
 import React from "react";
-import { FaFacebookSquare, FaInstagramSquare, FaTiktok } from "react-icons/fa";
+import { FaFacebookSquare, FaInstagramSquare } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
+import { AiFillTikTok } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -49,7 +50,7 @@ const Footer = () => {
             <IoIosMail size={28} />
           </Link>
           <Link href="#">
-            <FaTiktok />
+            <AiFillTikTok size={27} />
           </Link>
           <Link href="#">
             <FaInstagramSquare />
