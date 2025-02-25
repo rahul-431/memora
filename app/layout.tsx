@@ -6,6 +6,7 @@ import Heading from "@/components/layout/Heading";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
+
 const poppin = Poppins({
   variable: "--font-poppins",
   subsets: ["latin"],
