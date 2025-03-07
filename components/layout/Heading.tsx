@@ -48,7 +48,7 @@ const Heading = () => {
             <SheetTrigger className="text-xl">
               <HiBars3BottomRight />
             </SheetTrigger>
-            <SheetContent side="right" className="max-w-44 py-8">
+            <SheetContent side="right" className="max-w-44 flex py-8">
               <SheetHeader>
                 <SheetTitle className="text-lg text-left">Memora</SheetTitle>
               </SheetHeader>
