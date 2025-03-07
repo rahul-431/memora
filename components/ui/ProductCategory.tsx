@@ -41,8 +41,8 @@ const ProductCategory = () => {
               value: "giftSets",
             },
           ]}
-          label="Baby Type"
-          placeholder="Select Baby"
+          label="Category"
+          placeholder="Select Category"
         />
       </div>
       <div className="hidden sm:block sm:mx-8 md:mx-14 lg:mx-20 my-5">

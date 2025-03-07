@@ -9,10 +9,9 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { IoCartOutline } from "react-icons/io5";
-import RatingStar from "../Rating/RatingStar";
 import { FaRegHeart } from "react-icons/fa";
-
-const CardPage = () => {
+import RatingStar from "../Rating/RatingStar";
+const CardPage1 = () => {
   const cartItems = [
     {
       name: "Floral Summer Dress",
@@ -50,14 +49,23 @@ const CardPage = () => {
       price: 1200,
       rating: 5,
     },
+    {
+      name: "Floral Summer Dress",
+      image: "/image.png",
+      price: 1200,
+      rating: 5,
+    },
+    {
+      name: "Floral Summer Dress",
+      image: "/image.png",
+      price: 1200,
+      rating: 5,
+    },
   ];
-
   return (
-    <div className="my-2">
-      <h1 className="text-center text-2xl text-blue-800 font-bold">
-        Chic Styles for Little Angels
-      </h1>
-      <div className="grid justify-center items-center  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-5 lg:gap-10 my-5 gap-5 lg:m-10 lg:my-8 lg:mr-4">
+    <div className="my-10">
+      <h1 className="text-center text-3xl font-bold text-blue-950">Dapper Design for Little Heros</h1>
+      <div className="grid justify-center items-center  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-5 lg:gap-10 my-5 gap-5 lg:m-10 lg:my- lg:mr-4">
         {cartItems.map((item, index) => {
           return (
             <Card
@@ -109,6 +117,6 @@ const CardPage = () => {
         <Button className="bg-green-700 w-full sm:w-52 text-xl py-5">View More</Button>
       </div>
     </div>
-  );
-};
-export default CardPage;
+  )
+}
+export default CardPage1
